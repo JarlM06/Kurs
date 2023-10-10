@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.otherPage {
+    margin: 33px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: large;
+    
+}
