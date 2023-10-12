@@ -1,7 +1,17 @@
 .title {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(127, 255, 212);
+    border-width: 2px;
+    border-bottom-style: solid;
+    
+
 }
+
+body {
+    margin: 0;
+}
+
 
 .searchBar {
     display: flex;
@@ -9,13 +19,22 @@
 }
 
 .otherPage {
-    margin: 33px;
+    margin: 0px;
     font-size: larger;
     color: black;
     text-decoration: none;
+    background-color: rgb(127, 255, 212);
+    padding: 30px;
+}
+
+.otherPage:hover{
+    background-color: rgb(111, 222, 185);
 }
 
 p {
+    display: flex;
+    justify-content: left;
+    padding: 2vw;
     font-size: large;
-    
+    background-color: whitesmoke;
 }
